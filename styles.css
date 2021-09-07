@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body {
+  max-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('./wallpaper.jpg')center/cover no-repeat fixed;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container, .headings, .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Profile Picture CSS */
+
+#profile-pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* Text CSS */
+
+#customer-text {
+  width: 600px;
+  text-align: center;
+}
+
+h4 {
+  color: lightcoral;
+}
+
+/* Button Styling */
+
+.buttons {
+  width: 800px;
+}
+
+.prevBtn {
+  float: left;
+}
+
+.nextBtn {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
